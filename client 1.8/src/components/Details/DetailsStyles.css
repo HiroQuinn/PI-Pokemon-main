@@ -1,0 +1,131 @@
+.background {
+  padding-top: 10%;
+}
+
+.imgDetais {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.cardsDetails {
+  max-width: 25%;
+  height: 65%;
+  display: flow-root;
+  position: relative;
+  margin: auto;
+  margin-top: auto;
+  background: #0000000a;
+  border: none;
+  z-index: 0;
+  border-radius: 5px;
+  margin-top: -50px;
+}
+
+.cardsDetails:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  border-radius: 10px;
+}
+
+.cardsDetails:before {
+  opacity: 1;
+}
+
+.cardsDetails:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000a5;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+.pokeName {
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 14px;
+  padding-top: 16px;
+  color: #ff02a8;
+}
+
+.types{
+  font-weight: bold;
+  font-size: 36px;
+  color: #ff02a8;
+  align-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.pokeImage {
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+  position: relative;
+  align-content: center;
+  display: flex;
+}
+
+.description {
+  font-family: "Times New Roman", Times, serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.2fr;
+  grid-row-gap: 1px;
+  margin-left: 20%;
+  color: #02ffc4;
+}
+
+
+.buttonss { 
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #bc13fe;
+  padding-top: 15px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.button-home {
+  position: relative;
+  margin-left: 1%;
+  margin-top: 1.5%;
+  z-index: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #bc13fe;
+  background-color: #000000a5;
+}
+
+.button-home:active {
+  color: #000
+}
+.button-home:hover {
+  background-color: #000000;
+  transition: 3 seconds;
+}
+.linked {
+  text-decoration: none;
+  color: #FB02D4;;
+}

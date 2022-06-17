@@ -1,0 +1,76 @@
+.container {
+  position: absolute ;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.container .img-landing {
+  width: 100%;
+  height: 100%;
+}
+
+.container .titulo {
+  font-size: 4rem;
+  color: #e8e8e8;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.container .btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boton {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+}
+
+.boton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.boton:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.boton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.boton::after {
+  background-color: #fff;
+}
+
+.boton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}

@@ -1,0 +1,42 @@
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.btn {
+  position: relative;
+  padding: 25px 45px;
+  margin: 0 15px;
+  background-color: #0000006c;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: #ff2121;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  overflow: hidden;
+  transition: 0.5s;
+  font-weight: 600;
+  font-family: Lato, "Trebuchet MS", "Verdana", "sans-serif";
+}
+
+.btn:hover {
+  background: #ff2121d2;
+  color: #111;
+  transition: 0.5s;
+}
+
+.btn:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  position: fixed;
+}
+

@@ -1,0 +1,45 @@
+.nav-container{
+  position: relative;
+  width: 100%;
+  height: 121px;
+  background-color: #0000001e;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+.all-li{
+  padding-top: 53px;
+  position: absolute;
+  margin: auto;
+}
+
+.search-container{
+  position: absolute;
+  top: 10px;
+  margin-left: 81%;
+  width: auto;
+}
+
+.link-route{
+  display: inline;
+  font-size: 28px;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  padding: 2px 16px 8px;
+  text-decoration: none;
+  text-align: right; 
+  margin-left: 35px;
+}
+
+.logo-pokemon{
+  position: absolute;
+  width: 18%;
+  height: 100%;
+}
+
+.branding{
+  position: flex;
+  margin-left: 41.5%;
+}
+
